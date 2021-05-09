@@ -3,24 +3,31 @@ html {
 }
 
 h1 {
+  font-size: 3rem;
   color: green;
+}
+
+li {
+  display: inline;
+  list-style: none;
+}
+
+.content {
+  padding-top: 100px;
 }
 
 .logo-text {
   display: inline;
 }
 
-.nav-link {
-  display: inline;
-  list-style: none;
-}
-
 #header {
   background-color: yellow;
   display: flex;
+  position: fixed;
   justify-content: space-between;
   min-height: 80px;
-  padding: 0px 50px 0px 50px;
+  min-width: 100vw;
+  /* padding: 0px 50px 0px 50px;  What do? */
 }
 
 #header-img {

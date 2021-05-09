@@ -10,6 +10,7 @@
       integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>FCC Product Landing Page</title>
   </head>
@@ -22,15 +23,41 @@
 
       <nav id="nav-bar">
         <ul>
-          <li class="nav-link"><a href="#">Features</a></li>
-          <li class="nav-link"><a href="#">How It Works</a></li>
-          <li class="nav-link"><a href="#">Pricing</a></li>
+          <li><a class="nav-link" href="#top">Top</a></li>
+          <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
         </ul>
       </nav>
     </header>
+
+    <div class="content">
+      <section id="top" class="hero">
+        <h1>The Product of Your Dreams is Here!</h1>
+      </section>
+
+      <section id="how-it-works">
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/a8yK8YGRxgM"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </div>
+
+    <section id="pricing">
+      <p>Prices go here.</p>
+    </section>
+
+    <!-- Attribution for logo -->
     <a style="display: none" href="https://pngtree.com/so/blue"
       >blue png from pngtree.com</a
     >
+    <!-- Test suite -->
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
