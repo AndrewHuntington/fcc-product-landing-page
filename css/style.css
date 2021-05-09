@@ -5,3 +5,25 @@ html {
 h1 {
   color: green;
 }
+
+.logo-text {
+  display: inline;
+}
+
+.nav-link {
+  display: inline;
+  list-style: none;
+}
+
+#header {
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+  min-height: 80px;
+  padding: 0px 50px 0px 50px;
+}
+
+#header-img {
+  display: inline-block;
+  max-height: 50px;
+}
