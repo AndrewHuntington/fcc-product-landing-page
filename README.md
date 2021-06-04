@@ -1,6 +1,6 @@
 # freeCodeCamp Product Landing Page
 
-### View on [CodePen]()
+### View on [CodePen](https://codepen.io/strugglebunny/full/oNZqEdP)
 
 A product landing page built for [freeCodeCamp](https://www.freecodecamp.com)'s Responsive Web Design Certification.
 
