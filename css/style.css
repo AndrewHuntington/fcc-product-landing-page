@@ -7,13 +7,12 @@ h1 {
   font-size: 3rem;
 }
 
-li {
-  display: inline;
-  list-style: none;
-}
-
 .hero {
-  background-image: url("/images/hero.jpg");
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url("/images/hero.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -33,18 +32,66 @@ li {
   background-color: white;
 }
 
+.btn {
+  background-color: rgb(199, 187, 194);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  font-weight: bold;
+  height: 45px;
+  min-width: 150px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: rgb(153, 149, 151);
+  cursor: pointer;
+}
+
+.product-name {
+  font-family: "Cutive Mono", monospace;
+  font-size: 1.8rem;
+  letter-spacing: 0.05rem;
+}
+
 #header {
-  background-color: yellow;
+  background-color: whitesmoke;
+  display: flex;
   position: fixed;
+  justify-content: space-between;
   min-height: 60px;
   min-width: 99.9vw;
+}
+
+#header-img {
+  width: 65px;
+  padding-left: 50px;
+}
+
+#nav-menu {
+  list-style-type: none;
+  margin: 0;
+  padding-right: 50px;
+}
+
+#nav-menu > li {
+  float: left;
+}
+
+.nav-link {
+  display: block;
+  padding: 25px 10px;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.nav-link:hover {
+  background-color: rgba(196, 192, 192, 0.3);
 }
 
 #title-area {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* color: #f5f3f4; */
   color: black;
   padding-top: 100px;
   -webkit-text-stroke: 1px #5a5c53;
@@ -56,11 +103,6 @@ li {
 
 #subtitle {
   font-size: 2rem;
-}
-
-#product-name {
-  font-family: "Cutive Mono", monospace;
-  font-size: 1.8rem;
 }
 
 #how-it-works {
@@ -104,6 +146,28 @@ li {
   width: 99.9vw;
 }
 
+#email-entry-form {
+  display: flex;
+  margin-top: 10rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+#email {
+  padding-left: 10px;
+  height: 35px;
+  min-width: 275px;
+}
+
+#btn-wrapper {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+/**
+  * MEDIA STYLES 
+  */
 @media (max-width: 780px) {
   #pricing {
     height: 1000px;
