@@ -18,15 +18,19 @@ html {
 }
 
 .price-choice {
-  border: 2px solid black;
+  background-color: whitesmoke;
+  border: 1px solid black;
   border-radius: 2%;
   min-width: 250px;
   width: 25%;
   height: 100%;
 }
 
-.basic {
-  background-color: white;
+.price-choice > h3 {
+  background-color: rgba(153, 149, 151, 0.1);
+  font-size: 2rem;
+  padding: 15px 0 10px 0;
+  text-align: center;
 }
 
 .btn {
@@ -67,6 +71,30 @@ html {
   font-size: 1.2rem;
   padding: 0px 10px;
   text-decoration: none;
+}
+
+.fas {
+  font-size: 2.5rem;
+  letter-spacing: 0.5rem;
+}
+
+.cost {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.price-desc {
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 1.8rem;
+  margin-top: 25px;
+}
+
+.select-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
 }
 
 #header {
@@ -145,13 +173,13 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 400px;
+  height: 500px;
   width: 99.9vw;
   position: relative;
 }
 
 #price-cats {
-  background-color: teal;
+  background-color: whitesmoke;
   display: flex;
   height: 65%;
   justify-content: space-around;
@@ -171,7 +199,7 @@ html {
   min-width: 275px;
 }
 
-#btn-wrapper {
+#submit-wrapper {
   display: flex;
   margin-top: 1rem;
   justify-content: center;
@@ -224,7 +252,7 @@ html {
   }
 
   #pricing {
-    height: 1000px;
+    height: 1100px;
   }
 
   #price-cats {
