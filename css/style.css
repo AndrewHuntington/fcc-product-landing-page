@@ -79,6 +79,7 @@ h1 {
 
 .nav-link {
   display: block;
+  color: black;
   padding: 25px 10px;
   text-decoration: none;
   font-size: 1.3rem;
@@ -187,6 +188,26 @@ h1 {
 }
 
 @media (max-width: 600px) {
+  #header {
+    position: relative;
+  }
+
+  #header-img {
+    padding-left: 10px;
+  }
+
+  #nav-menu {
+    padding-right: 10px;
+  }
+
+  .nav-link {
+    font-size: 0.8rem;
+  }
+
+  #title-area {
+    padding-top: 50px;
+  }
+
   #how-it-works {
     flex-direction: column;
   }
