@@ -1,5 +1,5 @@
-const button = document.querySelector(".btn");
+// const button = document.querySelector(".btn");
 
-button.addEventListener("click", (e) => {
-  e.preventDefault();
-});
+// button.addEventListener("click", (e) => {
+//   e.preventDefault();
+// });
